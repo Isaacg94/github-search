@@ -16,4 +16,12 @@ export class GenerateSearchService {
   getProfileData() {
     return this.http.get(`https://api.github.com/users/${this.username}?access_token=${this.token}`)
   }
+
+  updateSearch(user: string) {
+    this.username = user;
+  }
+
+  getRepoData(){
+    return this.http.get(`https://api.github.com/users/${this.username}/repos?access_token=${this.token}`)
+  }
 }

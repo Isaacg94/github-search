@@ -1,9 +1,4 @@
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container">
-            <h1>Home</h1>
 
-    </div>
-</nav>
 <br>
 
 <div class="container">
@@ -18,10 +13,11 @@
 
     </div>
     <div class="col-md-8">
-                <form>
-                  <input type="text" placeholder="Search" [(ngModel)]="query" name="name" >
-                  <button type="submit" (click) = 'searchUser()' >Search</button>
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" [(ngModel)]="query" name="name" >
+                  <button class="btn btn-warning" type="submit" (click) = 'searchUser()' >Search</button>
                 </form>
+                <br>
       <nav class="navbar navbar-light" style="background-color: #e3f2fd;" *ngIf = 'profile'>
         <h6>Repositories: {{profile.public_repos}}</h6>
         <h6>Followers: {{profile.followers}}</h6>

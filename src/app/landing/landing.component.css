@@ -1,0 +1,14 @@
+.welcome {
+  margin-top: 15%;
+}
+.welcome h1 {
+  color: #1e3155;
+  font-family: 'Grenze', serif;
+}
+.welcome .btn {
+  text-align: center;
+  border-radius: 50px;
+}
+.bttn-sbmt {
+  text-align: center;
+}

@@ -12,7 +12,12 @@ export class UserProfileComponent implements OnInit {
   query: string;
 
   constructor(private service:GenerateSearchService) {
-    this.service.getProfileData().subscribe(profile => {
+   
+   }
+
+   searchUser(){
+     this.service.updateSearch(this.query);
+     this.service.getProfileData().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
     })

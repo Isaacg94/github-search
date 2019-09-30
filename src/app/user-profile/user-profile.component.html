@@ -9,8 +9,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <img src="https://avatars2.githubusercontent.com/u/53858534?v=4
-                    " alt="avatar" width="50%">
+      <img src="{{ profile.avatar_url }}" width="50%">
       <h5>{{profile.name}}</h5>
       <h5>{{profile.login}}</h5>
       <h6>{{profile.bio}}</h6>
@@ -23,7 +22,7 @@
                   <input type="text" placeholder="Search" [(ngModel)]="query" name="name" >
                   <button type="submit" (click) = 'searchUser()' >Search</button>
                 </form>
-      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd;" *ngIf = 'profile'>
         <h6>Repositories: {{profile.public_repos}}</h6>
         <h6>Followers: {{profile.followers}}</h6>
         <h6>Following: {{profile.following}}</h6>

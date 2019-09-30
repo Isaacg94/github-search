@@ -28,10 +28,12 @@
         <div class="card">
             <div class="card-body">
               <h5 class="card-title">{{repo.name}}</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p> <em>{{ repo.language }}</em></p>
+              <p class="card-text">{{ repo.description }}</p>
+              <a href="{{ repo.html_url }}" target="_blank" class="btn btn-outline-primary">View On GitHub</a>
             </div>
           </div>
+          <br>
       </div>
 
 

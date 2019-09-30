@@ -1,27 +1,51 @@
-# GithubSearch
+# GitHub Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+![alt text](src/assets/images/screenshot1.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Author
+ **[Isaac Gichuru.](https://github.com/Isaacg94)**
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A website that allows a user to search for GitHub users and display their profile information as well as a glimpse of their repositories.
 
-## Build
+**[Live-Link to site.](https://isaacg94.github.io/github-search/)**
+## Features
+* A landing page with a button that navigates user to the search page.
+* A search page which allows the user to search for github users by typing in their usernames.
+* A display of the github user information and their repositories ordered in interactive cards.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Behaviour Driven Development (BDD)
+|Behaviour 	           |    Input 	                 |       Output          |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|   Page loads, user arrives in the landing page, on clicking the begin search button, they are taken to the search page.  |    The user , once in the search page, can search github usernames on the search box.  |   The profiles of the users as well as their repos are displayed upon submission.    |                       |
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Setup/Installation Requirements
+Here is a run through of how to set up the application:
+* Step 1 : Clone this repository using the git clone link:
+  * **`git clone https://github.com/Isaacg94/github-search.git`**
+* Step 2 : Navigate to the directory:
+  * **`cd Quotes`**
+* Step 3 : Open the directory created with your favorite IDE. If Atom type **`atom .`** if VSCode type **`code .`** . This will lauch the editor with the project setup,
+* Now feel free to hack around the project.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
 
-## Further help
+- Angular CLI version  8.3.4
+- HTML
+- CSS
+- Javascript
+- Bootstrap 4.3.1
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contact details
+
+Primary E-mail Address: 7248zack@gmail.com
+
+### License
+*MIT License* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT)
+
+Copyright (c) 2019 **Isaac Gichuru**
+

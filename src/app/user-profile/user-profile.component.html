@@ -25,7 +25,13 @@
       </nav>
 
       <div class="repos" *ngFor = 'let repo of repos'>
-        {{repo.name}}
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{repo.name}}</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
       </div>
 
 

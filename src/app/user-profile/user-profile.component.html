@@ -8,10 +8,6 @@
 
 <div class="container">
   <div class="row">
-        <form>
-          <input type="text">
-          <button type="submit"></button>
-        </form>
     <div class="col-md-4">
       <img src="https://avatars2.githubusercontent.com/u/53858534?v=4
                     " alt="avatar" width="50%">
@@ -23,6 +19,10 @@
 
     </div>
     <div class="col-md-8">
+                <form>
+                  <input type="text" placeholder="Search" [(ngModel)]="query" name="name" >
+                  <button type="submit" (click) = 'searchUser()' >Search</button>
+                </form>
       <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
         <h6>Repositories: {{profile.public_repos}}</h6>
         <h6>Followers: {{profile.followers}}</h6>

@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class UserProfileComponent implements OnInit {
   profile:any;
   repos: any;
+  query: string;
 
   constructor(private service:GenerateSearchService) {
     this.service.getProfileData().subscribe(profile => {

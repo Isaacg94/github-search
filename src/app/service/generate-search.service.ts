@@ -14,6 +14,6 @@ export class GenerateSearchService {
   constructor(private http:HttpClient) { }
 
   getProfileData() {
-    return this.http.get(`https://api.github.com/user/${this.username}?access_token=${this.token}`)
+    return this.http.get(`https://api.github.com/users/${this.username}?access_token=${this.token}`)
   }
 }

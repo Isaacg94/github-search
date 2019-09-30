@@ -1,6 +1,7 @@
 # GitHub Search
 
 ![alt text](src/assets/images/screenshot.png)
+![alt text](src/assets/images/screenshot1.png)
 
 
 ### Author

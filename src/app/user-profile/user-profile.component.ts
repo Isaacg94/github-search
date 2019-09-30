@@ -8,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserProfileComponent implements OnInit {
   profile:any;
+  repos: any;
+
   constructor(private service:GenerateSearchService) {
     this.service.getProfileData().subscribe(profile => {
       console.log(profile);
       this.profile = profile;
+    })
+
+    this.service.getRepoData().subscribe(repo => {
+      console.log(repo);
+      this.repos = repo;
     })
    }
 

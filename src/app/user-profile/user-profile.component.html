@@ -25,6 +25,10 @@
         <h6>Following: {{profile.following}}</h6>
       </nav>
 
+      <div class="repos" *ngFor = 'let repo of repos'>
+        {{repo.name}}
+      </div>
+
 
 
     </div>

@@ -11,6 +11,7 @@ export class GenerateSearchService {
   token = environment.token;
   clientSecret = environment.clientSecret;
 
+
   constructor(private http:HttpClient) { }
 
   getProfileData() {

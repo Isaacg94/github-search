@@ -4,7 +4,8 @@
 
 export const environment = {
   token: '575d1cd52bc7144b98b8adff89959d3525730001',
-  clientSecret: '44d3646d128ea8b8e5addf041cb216ea539e3294',
+  clientSecret: 'f7ba95f499efe64d6f1bc78ab092445aa6565bee',
+  clientId: '671137aeee65a029a8cc',
   production: false
 };
 
